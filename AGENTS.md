@@ -8,3 +8,5 @@
 > Commits you push to the connected branch sync back to Lovable and show up in
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
+
+- Client-specific data lives only in src/config/* and src/data/*; components read from them and hide sections with empty data, so the template can be reused per client.
